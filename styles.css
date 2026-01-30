@@ -1,10 +1,36 @@
-body{
-    background-color: white;
+html{
+    background-color: aqua;
+    height: 100%;
 }
-h1{
+body {
+    background-color: white;
+    height: 90%;
+}
+
+h1 {
     text-align: center;
 }
-img{
+
+img {
     display: block;
     margin: auto;
+}
+#wrapper{
+    background-color: lightgreen;
+    display:flex;
+    flex-direction: column;
+    height: 100vh;
+}
+header{
+    background-color: orange;
+    padding: 1rem;
+}
+main{
+    background-color: lime;
+    padding: 1rem;
+    flex: 1;
+}
+footer{
+    background-color:lightpink;
+    padding: 1rem;
 }
